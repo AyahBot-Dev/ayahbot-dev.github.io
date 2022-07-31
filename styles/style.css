@@ -7,7 +7,7 @@ body {
 	color: #fff;
 	text-align: center;
 	align-items: center;
-	background: #2e8701;
+	background-color: #226700;
 	box-sizing: border-box;
 	justify-content: center;
 	background: linear-gradient(106deg, #1b5000 0%, rgba(34, 126, 1, 0.76) 100%);
@@ -16,11 +16,20 @@ body {
 h1,
 p,
 img {
-	margin: 0 0 10px 0;
+	margin: 0 0 15px 0;
 }
 
-.main a img {
-	color: #fff;
+.main a svg {
+	width: 20px;
+	height: 20px;
+	fill: #fff;
+	transition: all 300ms ease-out;
+}
+
+.main a:hover svg,
+.main a:focus svg {
+	fill: rgba(255, 255, 255, 0.7);
+	outline: none;
 }
 
 .footer {
