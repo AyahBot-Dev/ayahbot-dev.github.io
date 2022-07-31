@@ -10,6 +10,7 @@ body {
 	background-color: #226700;
 	box-sizing: border-box;
 	justify-content: center;
+	font-family: "DM Sans", sans-serif;
 	background: linear-gradient(106deg, #1b5000 0%, rgba(34, 126, 1, 0.76) 100%);
 }
 
